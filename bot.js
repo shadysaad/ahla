@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "$";
+  var prefix = "1";
 
   client.on("message", message => {
   
@@ -78,7 +78,7 @@ m.sendMessage(args)
          .setThumbnail(message.author.avatarURL)
          .setDescription(`**Help|هيلب
 
-       $obc | لأرسال برود كاست للكل
+       $1 | لأرسال برود كاست للكل
 
        $bc  |  لأرسال برود كاست للأونلاين
 
